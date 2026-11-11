@@ -93,17 +93,49 @@
         }
         .secondSection .box{
            background: white; 
-           width: 80vw;
+           width: 76vw;
            height: 2px;
            margin: 56px 0;
-
+           display: flex;
         }
         .secondSection .vertical{
             height: 93px;
             width: 1px;
             background-color: white;
             display: flex;
-            margin: 0 100px;
+            margin: 0 140px;
+        }
+        .image-top{
+        width: 45px;
+        height: 45px;
+        position: relative;
+        top: -46px;
+        left: 11px;
+        }
+        .vertical{
+            display: flex;
+            flex-direction: column;
+        }
+        .vertical-title{
+        width: 150px;
+        position: relative;
+        top: 45px;
+        }
+        .vertical-desc{
+        position: relative;
+        top: 57px;
+        width: 160px;
+        font-size: 10px;
+        }
+        .blankSpace{
+            padding-bottom: 300px;
+        }
+        footer{
+            height: 320px;
+            background-color: #0e0e1a;
+        }
+        .footer{
+            display: flex;
         }
     </style>
 </head>
@@ -139,14 +171,67 @@
             <span class="text-gray">What I have done so far</span>
             <h1>Work Experience</h1>
             <div class="box">
-                <div class="vertical"></div>
-                <div class="vertical"></div>
-                <div class="vertical"></div>
-                <div class="vertical"></div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Html Developer (2010 -2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat animi, consequatur, inventore ratione, atque dicta obcaecati debitis dolore aliquid consectetur laudantium? Debitis, tempore?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Html Developer (2010 -2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat animi, consequatur, inventore ratione, atque dicta obcaecati debitis dolore aliquid consectetur laudantium? Debitis, tempore?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Html Developer (2010 -2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat animi, consequatur, inventore ratione, atque dicta obcaecati debitis dolore aliquid consectetur laudantium? Debitis, tempore?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Html Developer (2010 -2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat animi, consequatur, inventore ratione, atque dicta obcaecati debitis dolore aliquid consectetur laudantium? Debitis, tempore?
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Html Developer (2010 -2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat animi, consequatur, inventore ratione, atque dicta obcaecati debitis dolore aliquid consectetur laudantium? Debitis, tempore?
+                    </div>
+                    
+                </div>
             </div>
         </section>
+        <div class="blankSpace"></div> 
     </main>
-
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>devendra singh</h3>
+            </div>
+            <div class="footer-second"></div>
+            <div class="footer-third"></div>
+            <div class="footer-forth"></div>
+        </div>
+    </footer>
     <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
     <script>
     var typed = new Typed('#element', {
